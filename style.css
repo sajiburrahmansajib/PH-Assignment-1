@@ -117,10 +117,10 @@ footer {
     background-color: beige;
     padding-left: 5px;
     padding-top: 30px;
-    padding-bottom: 220px;
-    padding-right: 220px;
+    padding-bottom: 160px;
+    padding-right: 130px;
 
-    margin: 10px;
+    margin: 3px;
     background-image: url(icons/food.png);
     background-repeat: no-repeat;
     background-position-x: 5%;
@@ -131,9 +131,9 @@ footer {
     background-color: antiquewhite;
     padding-left: 5px;
     padding-top: 30px;
-    padding-bottom: 220px;
-    padding-right: 220px;
-    margin: 10px;
+    padding-bottom: 160px;
+    padding-right: 130px;
+    margin: 3px;
     background-image: url(icons/shelter.png);
     background-repeat: no-repeat;
     background-position-x: 5%;
@@ -144,9 +144,9 @@ footer {
     background-color: aquamarine;
     padding-left: 5px;
     padding-top: 30px;
-    padding-bottom: 220px;
-    padding-right: 220px;
-    margin: 10px;
+    padding-bottom: 160px;
+    padding-right: 130px;
+    margin: 3px;
 
     background-image: url(icons/Frame-1.png);
     background-repeat: no-repeat;
@@ -226,6 +226,11 @@ hr {
 .get-update {
     padding-top: 140px;
     text-align: center;
+}
+
+span {
+    padding-top: 15px;
+    font-size: 12px;
 }
 
 .get-update h1 {
