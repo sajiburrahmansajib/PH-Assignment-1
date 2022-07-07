@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-part {
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    padding: 100px;
+
+}
+
+.top-header {
+    background-image: url(images/donation12.png);
+    background-repeat: no-repeat;
+
+    opacity: 0.7;
+
+}
+
+.top-header p {
+    font-size: 20px;
+
+}
+
+.link-donate {
+    padding: 20px;
+    background-color: rgb(223, 67, 19);
+    text-decoration: none;
+    margin-top: 30px;
+    color: white;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+.link-donate2 {
+    margin-top: 30px;
+    display: flex;
+    text-decoration: none;
+    margin-left: 40%;
+    margin-right: 45%;
+    border-radius: 7px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(252, 95, 126);
+    justify-content: center;
+    padding: 17px;
+    font-size: 17px;
+}
+
+.donate-today {
+    padding-top: 90px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.donate-part p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
+.amount {
+    display: inline-flex;
+    width: 10%;
+    background-color: rgb(217, 224, 235);
+    margin: 25px;
+    padding-left: 70px;
+    border-radius: 4px
+}
+
+.color-click {
+    color: rgb(231, 62, 62);
+    background-color: rgb(240, 163, 163);
+    border: 2px solid rgb(231, 62, 62);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    margin: 0px;
+}
+
+footer p {
+    color: wheat;
+}
+
+footer h1 {
+    color: crimson;
+    font-style: italic;
+
+
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.donate-plan {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 30px;
+}
+
+.donate-plan p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+
+}
+
+#plan1 {
+    background-color: beige;
+    padding-left: 5px;
+    padding-top: 30px;
+    padding-bottom: 220px;
+    padding-right: 220px;
+
+    margin: 10px;
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: 17%;
+}
+
+#plan2 {
+    background-color: antiquewhite;
+    padding-left: 5px;
+    padding-top: 30px;
+    padding-bottom: 220px;
+    padding-right: 220px;
+    margin: 10px;
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: 17%;
+}
+
+#plan3 {
+    background-color: aquamarine;
+    padding-left: 5px;
+    padding-top: 30px;
+    padding-bottom: 220px;
+    padding-right: 220px;
+    margin: 10px;
+
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: 17%;
+
+}
+
+.plan {
+    display: inline-flex;
+    margin: 1px;
+    padding-left: 0px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-right: 40px;
+
+}
+
+.plan h3 {
+    padding-top: 90px;
+    padding-left: 20px;
+
+}
+
+.plan-list {
+    padding-left: 50px;
+}
+
+
+
+hr {
+    margin-left: 24px;
+    margin-right: 80px
+}
+
+.input-amount {
+    padding-top: 30px;
+    margin-left: 550px;
+    font-size: large;
+    border: none;
+}
+
+.payment-option {
+    margin-top: 170px;
+    background-color: aquamarine;
+    padding-top: 50px;
+    padding-bottom: 320px;
+
+    background-image: url(images/payment.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 20%;
+}
+
+.payemnt-gateway {
+    background-image: url(images/gateway-r.png);
+    background-repeat: no-repeat;
+}
+
+.payment-option h1 {
+    text-align: right;
+    padding-right: 50px;
+    font-size: 40px;
+    background-image: url(images/gateway-r.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: right;
+    padding-top: 200px;
+}
+
+.payment-option p {
+    text-align: right;
+    padding-right: 100px;
+    color: crimson;
+}
+
+.get-update {
+    padding-top: 140px;
+    text-align: center;
+}
+
+.get-update h1 {
+    font-size: 50px;
+}
+
+.email-subscribe {
+    margin-top: 70px;
+}
+
+.email-subscribe input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(228, 211, 211);
+    width: 300px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.email-subscribe a {
+    text-decoration: none;
+    background-color: rgb(255, 89, 89);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    margin: 0;
+
+
+}
+
+.email-subscribe {
+    background-color: rgb(255, 244, 214);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
